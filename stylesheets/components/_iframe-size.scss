@@ -1,0 +1,11 @@
+.iframe-size {
+  width: 400px;
+  height: 175px;
+}
+
+@include media-breakpoint-up(md) {
+  .iframe-size {
+    width: 500px;
+    height: 350px;
+  }
+}
