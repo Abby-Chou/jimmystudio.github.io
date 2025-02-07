@@ -6,4 +6,8 @@ $(document).ready(() => {
   $("#collapseButton1").on("click", () => {
     $("#collapseButton1").hide();
   });
+
+  $("#aboutmeItem").on("click", () => {
+    $("#navbarSupportedContent").collapse("hide");
+  });
 });
