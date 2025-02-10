@@ -9677,6 +9677,21 @@ textarea.form-control-lg {
     -moz-column-gap: 3rem !important;
          column-gap: 3rem !important;
   }
+  .fs-s-sm-16 {
+    font-size: 1rem !important;
+  }
+  .fs-s-sm-18 {
+    font-size: 1.125rem !important;
+  }
+  .fs-s-sm-24 {
+    font-size: calc(1.275rem + 0.3vw) !important;
+  }
+  .fs-s-sm-36 {
+    font-size: calc(1.35rem + 1.2vw) !important;
+  }
+  .fs-s-sm-48 {
+    font-size: calc(1.425rem + 2.1vw) !important;
+  }
   .text-sm-start {
     text-align: left !important;
   }
@@ -10237,6 +10252,21 @@ textarea.form-control-lg {
   .column-gap-md-5 {
     -moz-column-gap: 3rem !important;
          column-gap: 3rem !important;
+  }
+  .fs-s-md-16 {
+    font-size: 1rem !important;
+  }
+  .fs-s-md-18 {
+    font-size: 1.125rem !important;
+  }
+  .fs-s-md-24 {
+    font-size: calc(1.275rem + 0.3vw) !important;
+  }
+  .fs-s-md-36 {
+    font-size: calc(1.35rem + 1.2vw) !important;
+  }
+  .fs-s-md-48 {
+    font-size: calc(1.425rem + 2.1vw) !important;
   }
   .text-md-start {
     text-align: left !important;
@@ -10799,6 +10829,21 @@ textarea.form-control-lg {
     -moz-column-gap: 3rem !important;
          column-gap: 3rem !important;
   }
+  .fs-s-lg-16 {
+    font-size: 1rem !important;
+  }
+  .fs-s-lg-18 {
+    font-size: 1.125rem !important;
+  }
+  .fs-s-lg-24 {
+    font-size: calc(1.275rem + 0.3vw) !important;
+  }
+  .fs-s-lg-36 {
+    font-size: calc(1.35rem + 1.2vw) !important;
+  }
+  .fs-s-lg-48 {
+    font-size: calc(1.425rem + 2.1vw) !important;
+  }
   .text-lg-start {
     text-align: left !important;
   }
@@ -11359,6 +11404,21 @@ textarea.form-control-lg {
   .column-gap-xl-5 {
     -moz-column-gap: 3rem !important;
          column-gap: 3rem !important;
+  }
+  .fs-s-xl-16 {
+    font-size: 1rem !important;
+  }
+  .fs-s-xl-18 {
+    font-size: 1.125rem !important;
+  }
+  .fs-s-xl-24 {
+    font-size: calc(1.275rem + 0.3vw) !important;
+  }
+  .fs-s-xl-36 {
+    font-size: calc(1.35rem + 1.2vw) !important;
+  }
+  .fs-s-xl-48 {
+    font-size: calc(1.425rem + 2.1vw) !important;
   }
   .text-xl-start {
     text-align: left !important;
@@ -11921,6 +11981,21 @@ textarea.form-control-lg {
     -moz-column-gap: 3rem !important;
          column-gap: 3rem !important;
   }
+  .fs-s-xxl-16 {
+    font-size: 1rem !important;
+  }
+  .fs-s-xxl-18 {
+    font-size: 1.125rem !important;
+  }
+  .fs-s-xxl-24 {
+    font-size: calc(1.275rem + 0.3vw) !important;
+  }
+  .fs-s-xxl-36 {
+    font-size: calc(1.35rem + 1.2vw) !important;
+  }
+  .fs-s-xxl-48 {
+    font-size: calc(1.425rem + 2.1vw) !important;
+  }
   .text-xxl-start {
     text-align: left !important;
   }
@@ -11951,6 +12026,33 @@ textarea.form-control-lg {
     font-size: 2.25rem !important;
   }
   .fs-s-48 {
+    font-size: 3rem !important;
+  }
+  .fs-s-sm-24 {
+    font-size: 1.5rem !important;
+  }
+  .fs-s-sm-36 {
+    font-size: 2.25rem !important;
+  }
+  .fs-s-sm-48 {
+    font-size: 3rem !important;
+  }
+  .fs-s-md-24 {
+    font-size: 1.5rem !important;
+  }
+  .fs-s-md-36 {
+    font-size: 2.25rem !important;
+  }
+  .fs-s-md-48 {
+    font-size: 3rem !important;
+  }
+  .fs-s-lg-24 {
+    font-size: 1.5rem !important;
+  }
+  .fs-s-lg-36 {
+    font-size: 2.25rem !important;
+  }
+  .fs-s-lg-48 {
     font-size: 3rem !important;
   }
 }

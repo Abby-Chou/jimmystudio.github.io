@@ -587,11 +587,13 @@ $utilities: map-merge(
       ),
     "font-size": (
       rfs: true,
+
       property: font-size,
       class: fs,
       values: $font-sizes,
     ),
     "font-size-static": (
+      responsive: true,
       rfs: true,
       property: font-size,
       class: fs-s,
