@@ -12123,4 +12123,21 @@ a.card:hover {
 
 a.card {
   transition: transform 0.3s;
+}
+
+.special-img {
+  height: 130px;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+@media (min-width: 768px) {
+  .special-img {
+    height: 300px;
+  }
+}
+@media (min-width: 992px) {
+  .special-img {
+    height: 180px;
+  }
 }/*# sourceMappingURL=all.css.map */

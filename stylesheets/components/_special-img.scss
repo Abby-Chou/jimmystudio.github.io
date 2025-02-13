@@ -1,0 +1,16 @@
+.special-img {
+  height: 130px;
+  object-fit: cover;
+}
+
+@include media-breakpoint-up(md) {
+  .special-img {
+    height: 300px;
+  }
+}
+
+@include media-breakpoint-up(lg) {
+  .special-img {
+    height: 180px;
+  }
+}
