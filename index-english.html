@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="zh-tw">
+<html lang="en">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -8,7 +8,7 @@
       href="./images/favicon/icons8-guitar-16.png"
       type="image/x-icon"
     />
-    <title>吉米音享音樂工作室</title>
+    <title>Jimmy's Enjoy Music Studio</title>
 
     <link rel="stylesheet" href="./stylesheets/all.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
@@ -28,7 +28,6 @@
         font-family: "ZCOOL XiaoWei", serif;
         font-weight: 400;
         font-style: normal;
-        overflow: hidden;
       }
     </style>
     <!-- Google tag (gtag.js) -->
@@ -47,34 +46,6 @@
     </script>
   </head>
   <body>
-    <!--選擇語言區塊-->
-    <div class="chooseLanguage">
-      <div class="chooseLanguageDetail p-5">
-        <p class="text-center">請選擇語言<br />(Please choose your language)</p>
-        <hr />
-
-        <a
-          type="button"
-          href="./index-chinese.html"
-          class="btn btn-secondary w-100 mb-2"
-        >
-          中文
-        </a>
-        <a
-          type="button"
-          href="./index-japanese.html"
-          class="btn btn-secondary w-100 mb-2"
-        >
-          日本語
-        </a>
-        <a
-          type="button"
-          href="./index-english.html"
-          class="btn btn-secondary w-100"
-          >English</a
-        >
-      </div>
-    </div>
     <!--固定右下方聯絡方式-->
     <aside class="contact">
       <div class="mb-2">
@@ -104,7 +75,7 @@
             width="48"
             height="48"
           />
-          <span>吉米音享音樂工作室</span>
+          <span>Jimmy's Enjoy Music Studio</span>
         </a>
         <button
           class="navbar-toggler"
@@ -124,8 +95,8 @@
               <a
                 class="nav-link text-warning fw-bold"
                 aria-current="page"
-                href="./index.html"
-                >首頁</a
+                href="./index-english.html"
+                >Home</a
               >
             </li>
             <li class="nav-item mx-3 dropdown">
@@ -135,7 +106,7 @@
                 id="dropdownMenuLink"
                 data-bs-toggle="dropdown"
                 aria-expanded="false"
-                >關於我</a
+                >About Me</a
               >
               <ul
                 class="dropdown-menu dropdown-menu-dark"
@@ -143,22 +114,28 @@
                 id="aboutmeItem"
               >
                 <li>
-                  <a class="dropdown-item" href="#aboutme">經歷</a>
+                  <a class="dropdown-item" href="#aboutme">Experience</a>
                 </li>
                 <li>
-                  <a class="dropdown-item" href="#profolio">作品</a>
+                  <a class="dropdown-item" href="#profolio">Profolio</a>
                 </li>
               </ul>
             </li>
             <li class="nav-item mx-3">
-              <a class="nav-link link-light" href="./service.html">服務介紹</a>
+              <a class="nav-link link-light" href="./service-english.html"
+                >Services</a
+              >
             </li>
             <li class="nav-item mx-3">
-              <a class="nav-link link-light" href="./video.html">影片分享</a>
+              <a class="nav-link link-light" href="./video-english.html"
+                >Videos</a
+              >
             </li>
             <li class="nav-item mx-3">
-              <a class="btn btn-warning rounded-pill fs-5" href="./charge.html"
-                >收費標準</a
+              <a
+                class="btn btn-warning rounded-pill fs-5"
+                href="./charge-english.html"
+                >Pricing & Fees</a
               >
             </li>
           </ul>
@@ -173,17 +150,26 @@
         background-image: url(./images/headerPhoto.jpg);
         top: 74px;
         margin-bottom: 80px;
-        height: 647px;
       "
     >
       <div class="p-5 text-white">
-        <p class="fs-5">你是否有學習音樂或是音樂製作上的需求呢?</p>
-        <h1 class="fw-bold mb-4">學習音樂可以輕鬆有趣</h1>
-        <p class="lh-lg">
-          在資訊爆炸的年代，網路上充斥著無數的訊息。雖說學習的管道變多了，但資訊品質的判斷卻也變得越來越難以分辨<br />
-          吉米音享音樂工作室提供各項客製化的服務，從根據學生喜好設計的吉他、詞曲創作、編曲課程<br />
-          與各種編曲、伴奏帶製作、採譜、錄音混音服務，<br />
-          皆可根據你的需求來配合!
+        <p class="fs-3">
+          Do you have a need for learning music or music production?
+        </p>
+        <h1 class="fw-bold mb-4">Learning music can be easy and fun!</h1>
+        <p class="lh-lg fs-5">
+          The internet is filled with countless resources. <br />While there are
+          now more ways to learn,<br />
+          it has also become increasingly difficult to determine the quality of
+          information.<br />
+          Jimmy's Enjoy Music Studio offers a variety of customized services,<br />
+          including guitar lessons, songwriting,<br />
+          and arrangement courses tailored to students' preferences.<br />
+          We also provide services such as music arrangement,<br
+            class="d-none d-lg-block"
+          />
+          backing track production, transcription, recording, and mixing.<br />
+          All customized to meet your needs!
         </p>
       </div>
     </header>
@@ -201,24 +187,32 @@
         class="row gy-3 justify-content-center flex-lg-row-reverse mb-4 gx-4 align-items-center"
       >
         <div class="col-lg-5">
-          <img src="./images/personalPhoto.jpg" alt="" class="w-100 rounded" />
+          <img
+            src="./images/personalPhoto.jpg"
+            alt=""
+            class="w-100 rounded object-fit-cover"
+          />
         </div>
 
         <div class="col-lg-5 d-flex align-items-center">
           <div>
-            <h2 class="display-5 fw-bold">關於我:</h2>
+            <h2 class="display-5 fw-bold">About Me:</h2>
             <ul class="list-unstyled lh-lg">
-              <li>姓名: 曹志銘 Jimmy</li>
+              <li>Name: Jimmy Tsao</li>
               <li>
-                現於愛樂客 iRock 音樂教室、這球 The Ball
-                音樂教室擔任吉他老師、八度音創簽約詞曲創作、編曲、製作、台北日僑學校輕音部指導老師
+                Currently teaching guitar at iRock Music School and The Ball
+                Music School, as well as working as a signed songwriter,
+                arranger, and producer for Octave Music. Additionally, I serve
+                as a band advisor for the Taipei Japanese School Light Music
+                Club.
               </li>
               <li class="text-danger fw-bold">
-                精通中英日語, 可用全英語、全日語授課
+                Languages: Fluent in Chinese, English, and Japanese. Lessons
+                available in full English or Japanese.
               </li>
-              <li>擅長樂風: J-Rock/J-Pop/Anisong/Rock/Pop</li>
+              <li>Genres of Expertise: J-Rock, J-Pop, Anisong, Rock, Pop</li>
               <li>
-                擅長樂器: 電吉他、木吉他<button
+                Instruments: Electric Guitar, Acoustic Guitar<button
                   class="btn btn-warning ms-3"
                   type="button"
                   data-bs-toggle="collapse"
@@ -227,13 +221,19 @@
                   aria-controls="collapsebutton"
                   id="collapseButton1"
                 >
-                  查看更多
+                  Check More
                 </button>
               </li>
 
               <ul class="list-unstyled collapse" id="collapseItem1">
-                <li>專業領域: 詞曲創作、編曲、後製、混音、樂譜採寫</li>
-                <li>樂團經歷: 私人視線吉他手、808 Project 吉他手、製作人</li>
+                <li>
+                  Specialties: Songwriting, Arrangement, Audio Post-Production,
+                  Mixing, Transcription
+                </li>
+                <li>
+                  Band Experience: Guitarist for Private Eyesight and 808
+                  Project
+                </li>
               </ul>
             </ul>
           </div>
@@ -242,21 +242,29 @@
 
       <!--演出經歷-->
       <div class="row gy-3 justify-content-center gx-4 mb-4">
-        <div class="col-lg-5">
-          <img src="./images/resume-1.jpg" alt="" class="w-100 h-100 rounded" />
+        <div class="col-lg-5 d-flex align-items-center">
+          <img
+            src="./images/resume-1.jpg"
+            alt=""
+            class="w-100 rounded object-fit-cover"
+          />
         </div>
         <div class="col-lg-5 d-flex align-items-center">
           <div>
-            <h2 class="display-5 fw-bold">演出經歷:</h2>
+            <h2 class="display-5 fw-bold">Performance Experience:</h2>
 
             <ul class="list-unstyled lh-lg">
-              <li>中國信託尾牙@南港展覽館</li>
-              <li>中信兄弟象開場演出@台中洲際棒球場</li>
+              <li>CTBC Bank Year-End Party @ Nangang Exhibition Center</li>
               <li>
-                「視線聚集」私人視線[DIM]EP 發片場＠台北 The Wall Livehouse
+                Chinatrust Brothers Opening Performance @ Taichung
+                Intercontinental Baseball Stadium
               </li>
               <li>
-                初詣 First Pray@ Legacy Taipei<button
+                "Private Eyesight" – Private Vision [DIM] EP Release Show @ The
+                Wall Livehouse
+              </li>
+              <li>
+                First Pray @ Legacy Taipei<button
                   class="btn btn-warning ms-3"
                   type="button"
                   data-bs-toggle="collapse"
@@ -265,13 +273,19 @@
                   aria-controls="collapseExample"
                   id="collapseButton2"
                 >
-                  查看更多
+                  Check More
                 </button>
               </li>
               <ul class="list-unstyled collapse" id="collapseItem2">
-                <li>北部高校熱音公關聚餐演出＠三創文藝園區展演館</li>
-                <li>北部高校熱音公關聚餐演出＠ATT SHOW BOX</li>
-                <li>中國廣州巡演 w 天地會樂團</li>
+                <li>
+                  Northern High School Light Music PR Gathering Performance @
+                  Syntrend Creative & Culture Park
+                </li>
+                <li>
+                  Northern High School Light Music PR Gathering Performance @
+                  ATT SHOW BOX
+                </li>
+                <li>Guangzhou, China Tour w/ Tiandihui Band</li>
               </ul>
             </ul>
           </div>
@@ -286,15 +300,23 @@
 
         <div class="col-lg-5 d-flex align-items-center">
           <div>
-            <h2 class="display-5 fw-bold">得獎經歷:</h2>
+            <h2 class="display-5 fw-bold">Awards & Certifications:</h2>
             <ul class="list-unstyled lh-lg">
-              <li>英國 Rockschool 檢定 電吉他 8 級合格</li>
               <li>
-                桃園鐵玫瑰熱音賞 2017 社會組「優勝獎」+「中國信託人氣樂團獎」
+                Passed Rockschool UK Electric Guitar Grade 8 Certification
               </li>
-              <li>臺中藍帶海洋音樂季 搖滾螺絲港熱音大賽亞軍＆最佳視覺獎</li>
-              <li>台灣流行音樂樂團原創大賞 總冠軍</li>
-              <li>2017 台北樂器大展熱音大賽 季軍</li>
+              <li>
+                2017 Taoyuan Iron Rose Music Competition (Social Group) – Winner
+                & CTBC Most Popular Band Award
+              </li>
+              <li>
+                Taichung Blue Belt Ocean Music Festival – Rock Luosigang Band
+                Contest – 2nd Place & Best Visual Award
+              </li>
+              <li>
+                Taiwan Pop Music Original Band Competition – Grand Champion
+              </li>
+              <li>2017 Taipei Music Expo Band Competition – 3rd Place</li>
             </ul>
           </div>
         </div>
@@ -313,7 +335,7 @@
       id="profolio"
     >
       <div class="container">
-        <h2 class="text-center display-4 mb-4">原創作品</h2>
+        <h2 class="text-center display-4 mb-4">Original Works</h2>
         <div
           class="row row-cols-2 row-cols-lg-6 mb-5 gy-3"
           style="
@@ -332,8 +354,12 @@
                 alt="..."
               />
               <div class="card-body">
-                <h3 class="card-title">如果重來遊戲主題曲</h3>
-                <p class="card-text">曲，編曲， 錄音，混音</p>
+                <h3 class="card-title fs-s-20">
+                  Mobile Game Theme Song - Once Again
+                </h3>
+                <p class="card-text fs-s-16">
+                  Songwriting,<br />Arrangements,<br />Recording,<br />Mixing
+                </p>
               </div>
             </a>
           </div>
@@ -349,13 +375,8 @@
                 alt="..."
               />
               <div class="card-body">
-                <h3 class="card-title">
-                  私人視線
-                  <span class="fs-s-16 fs-s-lg-24"
-                    >Private Eyesight-伴隨著</span
-                  >
-                </h3>
-                <p class="card-text">曲，編曲</p>
+                <h3 class="card-title">Private Eyesight -Along</h3>
+                <p class="card-text">Songwriting,<br />Arrangements,<br /></p>
               </div>
             </a>
           </div>
@@ -370,10 +391,8 @@
                 alt="..."
               />
               <div class="card-body">
-                <h3 class="card-title">
-                  私人視線 <span class="fs-s-24">Private Eyesight</span>-黯淡
-                </h3>
-                <p class="card-text">曲，編曲</p>
+                <h3 class="card-title">Private Eyesight -Dim</h3>
+                <p class="card-text">Songwriting,<br />Arrangements,<br /></p>
               </div>
             </a>
           </div>
@@ -388,10 +407,8 @@
                 alt="..."
               />
               <div class="card-body">
-                <h3 class="card-title">
-                  私人視線 <span class="fs-s-24">Private Eyesight</span>-槍口
-                </h3>
-                <p class="card-text">曲，編曲</p>
+                <h3 class="card-title">Private Eyesight -Pistol</h3>
+                <p class="card-text">Songwriting,<br />Arrangements,<br /></p>
               </div>
             </a>
           </div>
@@ -406,8 +423,10 @@
                 alt="..."
               />
               <div class="card-body">
-                <h3 class="card-title">808 Project-アンサー</h3>
-                <p class="card-text">曲，編曲， 錄音，混音</p>
+                <h3 class="card-title fs-s-20">808 Project-アンサー</h3>
+                <p class="card-text">
+                  Songwriting,<br />Arrangements,<br />Recording,<br />Mixing
+                </p>
               </div>
             </a>
           </div>
@@ -422,14 +441,16 @@
                 alt="..."
               />
               <div class="card-body">
-                <h3 class="card-title">808 Project-ダンシング</h3>
-                <p class="card-text">曲，編曲， 錄音，混音</p>
+                <h3 class="card-title fs-s-20">808 Project-ダンシング</h3>
+                <p class="card-text">
+                  Songwriting,<br />Arrangements,<br />Recording,<br />Mixing
+                </p>
               </div>
             </a>
           </div>
         </div>
 
-        <h2 class="text-center display-4 mb-4">翻唱作品</h2>
+        <h2 class="text-center display-4 mb-4">Cover</h2>
 
         <div class="row row-cols-1 row-cols-lg-2 justify-content-around g-5">
           <div class="col">
@@ -469,7 +490,7 @@
     </section>
     <!--footer-->
     <footer class="bg-secondary p-3 text-center text-white">
-      <p class="mb-0">© Copyright - 吉米音享音樂工作室</p>
+      <p class="mb-0">© Copyright - Jimmy's Enjoy Music Studio</p>
     </footer>
     <script
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js"

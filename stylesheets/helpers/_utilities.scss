@@ -255,6 +255,14 @@ $utilities: map-merge(
         auto: auto,
       ),
     ),
+    "height-static": (
+      property: height,
+      class: h-s,
+      values: (
+        300: 300px,
+        270: 270px,
+      ),
+    ),
     "max-height": (
       property: max-height,
       class: mh,
@@ -601,6 +609,7 @@ $utilities: map-merge(
       values: (
         16: 16px,
         18: 18px,
+        20: 20px,
         24: 24px,
         36: 36px,
         48: 48px,

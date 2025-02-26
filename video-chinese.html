@@ -1,0 +1,772 @@
+<!DOCTYPE html>
+<html lang="zh-tw">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="icon"
+      href="./images/favicon/icons8-guitar-16.png"
+      type="image/x-icon"
+    />
+    <title>吉米音享音樂工作室</title>
+
+    <link rel="stylesheet" href="./stylesheets/all.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=ZCOOL+XiaoWei&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css"
+    />
+    <style>
+      body {
+        font-family: "ZCOOL XiaoWei", serif;
+        font-weight: 400;
+        font-style: normal;
+      }
+    </style>
+    <!-- Google tag (gtag.js) -->
+    <script
+      async
+      src="https://www.googletagmanager.com/gtag/js?id=G-Z6RDLQBSEP"
+    ></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag() {
+        dataLayer.push(arguments);
+      }
+      gtag("js", new Date());
+
+      gtag("config", "G-Z6RDLQBSEP");
+    </script>
+  </head>
+  <body>
+    <!--固定右下方聯絡方式-->
+    <aside class="contact">
+      <div class="mb-2">
+        <a href="https://line.me/ti/p/3kyxq8avUY" target="_blank"
+          ><img src="./images/line.png" height="60px" alt="line"
+        /></a>
+      </div>
+      <div>
+        <a
+          href="https://www.instagram.com/jimmy19940309/?igsh=NjRkNGo1YWVoZzFu"
+          target="_blank"
+          ><img src="./images/instagram.png" alt="instagram"
+        /></a>
+      </div>
+    </aside>
+    <!--導覽列-->
+    <nav
+      class="navbar navbar-expand-lg navbar-light bg-secondary py-2 fixed-top"
+    >
+      <div class="container">
+        <a
+          class="navbar-brand fw-bold text-white fs-3"
+          href="./index-chinese.html"
+        >
+          <img
+            src="https://img.icons8.com/emoji/48/guitar-emoji.png"
+            alt="guitar-emoji"
+            class="img-fluid"
+            width="48"
+            height="48"
+          />
+          <span>吉米音享音樂工作室</span>
+        </a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav ms-auto mb-2 mb-lg-0 fs-5">
+            <li class="nav-item mx-3">
+              <a
+                class="nav-link text-warning fw-bold"
+                aria-current="page"
+                href="./index-chinese.html"
+                >首頁</a
+              >
+            </li>
+            <li class="nav-item mx-3 dropdown">
+              <a
+                class="nav-link dropdown-toggle link-light"
+                href="#"
+                id="dropdownMenuLink"
+                data-bs-toggle="dropdown"
+                aria-expanded="false"
+                >關於我</a
+              >
+              <ul
+                class="dropdown-menu dropdown-menu-dark"
+                aria-labelledby="dropdownMenuLink"
+                id="aboutmeItem"
+              >
+                <li>
+                  <a class="dropdown-item" href="index-chinese.html#aboutme"
+                    >經歷</a
+                  >
+                </li>
+                <li>
+                  <a class="dropdown-item" href="index-chinese.html#profolio"
+                    >作品</a
+                  >
+                </li>
+              </ul>
+            </li>
+            <li class="nav-item mx-3">
+              <a class="nav-link link-light" href="./service-chinese.html"
+                >服務介紹</a
+              >
+            </li>
+            <li class="nav-item mx-3">
+              <a class="nav-link link-light" href="#">影片分享</a>
+            </li>
+            <li class="nav-item mx-3">
+              <a
+                class="btn btn-warning rounded-pill fs-5"
+                href="./charge-chinese.html"
+                >收費標準</a
+              >
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <!--Header 首圖-->
+    <header
+      class="position-relative header"
+      style="
+        background-image: url(./images/video.header.jpg);
+        top: 74px;
+        margin-bottom: 70px;
+        height: 150px;
+      "
+    ></header>
+
+    <section class="container vh-lg-100">
+      <div class="row">
+        <!--目錄-->
+        <div class="col-12 col-lg-4">
+          <aside class="p-4 d-flex justify-content-center pb-0">
+            <div>
+              <a
+                href="#collapse-part1"
+                class="link-dark text-decoration-none"
+                data-bs-toggle="collapse"
+                aria-expanded="true"
+              >
+                <h3 class="fs-3 fw-bold">
+                  演奏示範 <i class="bi bi-caret-down-fill fs-3"></i>
+                </h3>
+              </a>
+
+              <!-- Collapse 內容 -->
+              <div class="collapse show" id="collapse-part1">
+                <ul class="nav nav-tabs no-border" role="tablist">
+                  <li class="nav-item no-border fs-s-18" role="presentation">
+                    <button
+                      class="ps-4 pe-0 nav-link active no-border pb-0"
+                      data-bs-toggle="tab"
+                      data-bs-target="#rumbling"
+                      type="button"
+                      role="tab"
+                    >
+                      <i class="bi bi-dash-lg"></i> SiM-The Rumbling 進擊の巨人
+                    </button>
+                  </li>
+                  <li class="nav-item no-border fs-s-18" role="presentation">
+                    <button
+                      class="ps-4 pe-0 nav-link no-border pb-0"
+                      data-bs-toggle="tab"
+                      data-bs-target="#taidada"
+                      type="button"
+                      role="tab"
+                    >
+                      <i class="bi bi-dash-lg"></i> ずっと真夜中いいのに-Taidada
+                    </button>
+                  </li>
+                  <li class="nav-item no-border fs-s-18" role="presentation">
+                    <button
+                      class="ps-4 pe-0 nav-link no-border pb-0"
+                      data-bs-toggle="tab"
+                      data-bs-target="#oz"
+                      type="button"
+                      role="tab"
+                    >
+                      <i class="bi bi-dash-lg"></i> Yama-Oz Guitar 國王排名
+                    </button>
+                  </li>
+                  <li class="nav-item no-border fs-s-18" role="presentation">
+                    <button
+                      class="ps-4 pe-0 nav-link no-border pb-0"
+                      data-bs-toggle="tab"
+                      data-bs-target="#hadaka"
+                      type="button"
+                      role="tab"
+                    >
+                      <i class="bi bi-dash-lg"></i> Vaundy-裸の勇者 國王排名
+                    </button>
+                  </li>
+                  <li class="nav-item no-border fs-s-18" role="presentation">
+                    <button
+                      class="ps-4 pe-0 nav-link no-border pb-0"
+                      data-bs-toggle="tab"
+                      data-bs-target="#ide"
+                      type="button"
+                      role="tab"
+                    >
+                      <i class="bi bi-dash-lg"></i> ヨルシカ-言って
+                    </button>
+                  </li>
+                  <li
+                    class="nav-item no-border fs-s-18 text-nowrap"
+                    role="presentation"
+                  >
+                    <button
+                      class="ps-4 pe-0 nav-link no-border pb-0"
+                      data-bs-toggle="tab"
+                      data-bs-target="#aitoyonnda"
+                      type="button"
+                      role="tab"
+                    >
+                      <i class="bi bi-dash-lg"></i>
+                      あたらよ-僕らはそれを愛と呼んだ
+                    </button>
+                  </li>
+                  <li
+                    class="nav-item no-border fs-s-18 text-nowrap"
+                    role="presentation"
+                  >
+                    <button
+                      class="ps-4 pe-0 nav-link no-border pb-0"
+                      data-bs-toggle="tab"
+                      data-bs-target="#tadakiminihare"
+                      type="button"
+                      role="tab"
+                    >
+                      <i class="bi bi-dash-lg"></i>
+                      ヨルシカ-ただ君に晴れ
+                    </button>
+                  </li>
+                  <li
+                    class="nav-item no-border fs-s-18 text-nowrap"
+                    role="presentation"
+                  >
+                    <button
+                      class="ps-4 pe-0 nav-link no-border pb-0"
+                      data-bs-toggle="tab"
+                      data-bs-target="#natsugasumi"
+                      type="button"
+                      role="tab"
+                    >
+                      <i class="bi bi-dash-lg"></i>
+                      あたらよ-夏霞
+                    </button>
+                  </li>
+                  <li
+                    class="nav-item no-border fs-s-18 text-nowrap"
+                    role="presentation"
+                  >
+                    <button
+                      class="ps-4 pe-0 nav-link no-border pb-0"
+                      data-bs-toggle="tab"
+                      data-bs-target="#constellation"
+                      type="button"
+                      role="tab"
+                    >
+                      <i class="bi bi-dash-lg"></i>
+                      結束バンド-星座になれたら
+                    </button>
+                  </li>
+                  <li
+                    class="nav-item no-border fs-s-18 text-nowrap"
+                    role="presentation"
+                  >
+                    <button
+                      class="ps-4 pe-0 nav-link no-border pb-0"
+                      data-bs-toggle="tab"
+                      data-bs-target="#lovecirculation"
+                      type="button"
+                      role="tab"
+                    >
+                      <i class="bi bi-dash-lg"></i>
+                      花澤香菜-恋愛サーキュレーション
+                    </button>
+                  </li>
+                  <li
+                    class="nav-item no-border fs-s-18 text-nowrap"
+                    role="presentation"
+                  >
+                    <button
+                      class="ps-4 pe-0 nav-link no-border pb-0"
+                      data-bs-toggle="tab"
+                      data-bs-target="#dinnersong"
+                      type="button"
+                      role="tab"
+                    >
+                      <i class="bi bi-dash-lg"></i>
+                      tuki - 晚餐歌
+                    </button>
+                  </li>
+                  <li
+                    class="nav-item no-border fs-s-18 text-nowrap"
+                    role="presentation"
+                  >
+                    <button
+                      class="ps-4 pe-0 nav-link no-border pb-0"
+                      data-bs-toggle="tab"
+                      data-bs-target="#hananoto"
+                      type="button"
+                      role="tab"
+                    >
+                      <i class="bi bi-dash-lg"></i>
+                      酸欠少女さユり-花の塔
+                    </button>
+                  </li>
+                </ul>
+              </div>
+              <hr />
+              <a
+                href="#collapse-part2"
+                class="link-dark text-decoration-none"
+                data-bs-toggle="collapse"
+                aria-expanded="true"
+              >
+                <h3 class="fs-3 fw-bold">
+                  教學示範 <i class="bi bi-caret-down-fill fs-3"></i>
+                </h3>
+              </a>
+              <!-- Collapse 內容 -->
+              <div class="collapse" id="collapse-part2">
+                <ul class="nav nav-tabs no-border" role="tablist">
+                  <li class="nav-item no-border fs-s-18" role="presentation">
+                    <button
+                      class="ps-4 pe-0 nav-link no-border pb-0"
+                      data-bs-toggle="tab"
+                      data-bs-target="#majorskill"
+                      type="button"
+                      role="tab"
+                    >
+                      <i class="bi bi-dash-lg"></i>
+                      大調音階快速記憶法
+                    </button>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </aside>
+        </div>
+        <!--主要內容-->
+        <div class="col-12 col-lg-8">
+          <div class="tab-content" id="nav-tabContent-1">
+            <div
+              class="tab-pane fade show active"
+              id="rumbling"
+              role="tabpanel"
+            >
+              <div
+                class="row py-5 g-4 justify-content-center align-items-center"
+              >
+                <div
+                  class="col-lg-5 d-flex justify-content-center align-items-center"
+                >
+                  <div class="text-center text-lg-start">
+                    <h4 class="fw-bold">SiM-The Rumbling 進擊の巨人</h4>
+                    <p>
+                      相信大家看巨人的時候聽到SiM這首OP會覺得很帥很熱血<br />
+                      他們使用了一些金屬樂的常見手法<br />
+                      再利用一些調性以外的選音來成就一首高張力的歌曲
+                    </p>
+                  </div>
+                </div>
+                <div class="col-lg-7">
+                  <a
+                    href="https://www.youtube.com/watch?v=vEGWRjXSl7Y"
+                    target="_blank"
+                    ><img
+                      src="./images/giant.JPG"
+                      alt="SiM-The Rumbling 進擊的の巨人"
+                      class="img-fluid"
+                  /></a>
+                </div>
+              </div>
+            </div>
+            <div class="tab-pane fade" id="taidada" role="tabpanel">
+              <div
+                class="row py-5 pe-2 g-4 justify-content-center align-items-center"
+              >
+                <div
+                  class="col-lg-5 d-flex justify-content-center align-items-center"
+                >
+                  <div class="text-center text-lg-start">
+                    <h4 class="fw-bold">ずっと真夜中いいのに-Taidada</h4>
+                    <p>
+                      身為Zutomayo的腦粉,每次聽到這首歌的時候都會很開心<br
+                        class="d-block d-lg-none"
+                      />
+                      這次稍微改編一下副歌的演奏法<br
+                        class="d-block d-lg-none"
+                      />
+                      用比較急促的16分組合與一些fills來呈現
+                    </p>
+                  </div>
+                </div>
+                <div class="col-lg-7">
+                  <div class="ratio ratio-16x9">
+                    <iframe
+                      src="https://www.youtube.com/embed/F-9xd8SwLK4?si=r3c7FcxtpbVVjC8a"
+                      frameborder="0"
+                    ></iframe>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="tab-pane fade" id="oz" role="tabpanel">
+              <div
+                class="row py-5 g-4 justify-content-center align-items-center"
+              >
+                <div
+                  class="col-lg-5 d-flex justify-content-center align-items-center"
+                >
+                  <div class="text-center text-lg-start">
+                    <h4 class="fw-bold">Yama-Oz Guitar 國王排名</h4>
+                    <p>
+                      Yama磁性的嗓音跟國王排名的向性實在是很不錯
+                      <br />整首歌的譜都有放在影片中
+                    </p>
+                  </div>
+                </div>
+                <div class="col-lg-7">
+                  <a
+                    href="https://www.youtube.com/watch?v=8bxpcg2eRok"
+                    target="_blank"
+                    ><img
+                      src="./images/oz.JPG"
+                      alt="Yama-Oz Guitar 國王排名"
+                      class="img-fluid"
+                  /></a>
+                </div>
+              </div>
+            </div>
+            <div class="tab-pane fade" id="hadaka" role="tabpanel">
+              <div
+                class="row py-5 g-4 justify-content-center align-items-center"
+              >
+                <div
+                  class="col-lg-5 d-flex justify-content-center align-items-center"
+                >
+                  <div class="text-center text-lg-start">
+                    <h4 class="fw-bold">Vaundy-裸の勇者 國王排名</h4>
+                    <p>
+                      Vaundy的歌曲總是用很簡單明瞭的Hook把人的耳朵抓住
+                      <br />整首的和絃都有寫
+                    </p>
+                  </div>
+                </div>
+                <div class="col-lg-7">
+                  <a
+                    href="https://www.youtube.com/watch?v=aolVEfaklfk"
+                    target="_blank"
+                    ><img
+                      src="./images/Hadaka-no-Yusya.JPG"
+                      alt="Vaundy-裸の勇者 國王排名"
+                      class="img-fluid"
+                  /></a>
+                </div>
+              </div>
+            </div>
+            <div class="tab-pane fade" id="ide" role="tabpanel">
+              <div
+                class="row py-5 g-4 justify-content-center align-items-center"
+              >
+                <div
+                  class="col-lg-5 d-flex justify-content-center align-items-center"
+                >
+                  <div class="text-center text-lg-start">
+                    <h4 class="fw-bold">ヨルシカ-言って</h4>
+                    <p>
+                      這首是我ヨルシカ入坑神作<br />
+                      可愛的動畫跟超噴的吉他讓當時的我整個迷上他們
+                      <br />跟大家分享～
+                    </p>
+                  </div>
+                </div>
+                <div class="col-lg-7">
+                  <a
+                    href="https://www.youtube.com/watch?v=17CWOVM0HiA"
+                    target="_blank"
+                    ><img
+                      src="./images/ide.JPG"
+                      alt="ヨルシカ-言って"
+                      class="img-fluid"
+                  /></a>
+                </div>
+              </div>
+            </div>
+            <div class="tab-pane fade" id="aitoyonnda" role="tabpanel">
+              <div
+                class="row py-5 g-4 justify-content-center align-items-center"
+              >
+                <div
+                  class="col-lg-5 d-flex justify-content-center align-items-center"
+                >
+                  <div class="text-center text-lg-start">
+                    <h4 class="fw-bold">あたらよ-僕らはそれを愛と呼んだ</h4>
+                    <p>
+                      前陣子聽了蠻多あたらよ<br />
+                      用簡單的編曲就做出很多好歌
+                      <br />蠻喜歡這首Solo的跟各位分享~
+                    </p>
+                  </div>
+                </div>
+                <div class="col-lg-7">
+                  <a
+                    href="https://www.youtube.com/watch?v=WpHrR6uk_Zc"
+                    target="_blank"
+                    ><img
+                      src="./images/aitoyonnda.JPG"
+                      alt="あたらよ-僕らはそれを愛と呼んだ"
+                      class="img-fluid"
+                  /></a>
+                </div>
+              </div>
+            </div>
+            <div class="tab-pane fade" id="tadakiminihare" role="tabpanel">
+              <div
+                class="row py-5 g-4 justify-content-center align-items-center"
+              >
+                <div
+                  class="col-lg-5 d-flex justify-content-center align-items-center"
+                >
+                  <div class="text-center text-lg-start">
+                    <h4 class="fw-bold">ヨルシカ-ただ君に晴れ</h4>
+                    <p>
+                      用五聲音階為主體的前奏<br />
+                      再加上跳躍的律動感
+                      <br />大家一起來談談看吧~
+                    </p>
+                  </div>
+                </div>
+                <div class="col-lg-7">
+                  <a
+                    href="https://www.youtube.com/watch?v=QIaHA8R8Z3k"
+                    target="_blank"
+                    ><img
+                      src="./images/tadakiminihare.JPG"
+                      alt="ヨルシカ-ただ君に晴れ"
+                      class="img-fluid"
+                  /></a>
+                </div>
+              </div>
+            </div>
+            <div class="tab-pane fade" id="natsugasumi" role="tabpanel">
+              <div
+                class="row py-5 g-4 justify-content-center align-items-center"
+              >
+                <div
+                  class="col-lg-5 d-flex justify-content-center align-items-center"
+                >
+                  <div class="text-center text-lg-start">
+                    <h4 class="fw-bold">あたらよ-夏霞</h4>
+                    <p>
+                      適合初學者入門彈的簡單Solo<br />
+                      簡單又好聽的旋律線
+                      <br />あたらよ的正常發揮～
+                    </p>
+                  </div>
+                </div>
+                <div class="col-lg-7">
+                  <a
+                    href="https://www.youtube.com/watch?v=Ik9DrZ_YdT8"
+                    target="_blank"
+                    ><img
+                      src="./images/natsugasumi.JPG"
+                      alt="あたらよ-夏霞"
+                      class="img-fluid"
+                  /></a>
+                </div>
+              </div>
+            </div>
+            <div class="tab-pane fade" id="constellation" role="tabpanel">
+              <div
+                class="row py-5 g-4 justify-content-center align-items-center"
+              >
+                <div
+                  class="col-lg-5 d-flex justify-content-center align-items-center"
+                >
+                  <div class="text-center text-lg-start">
+                    <h4 class="fw-bold text-nowrap">
+                      結束バンド-星座になれたら
+                    </h4>
+                    <p>
+                      相信喜歡孤獨搖滾的朋友們都對這首歌不陌生<br />
+                      Prechorus和Solo都利用一級maj7的手法來增加色彩
+                      <br />一起來彈彈看吧！
+                    </p>
+                  </div>
+                </div>
+                <div class="col-lg-7">
+                  <a
+                    href="https://www.youtube.com/watch?v=YkRWjfIoPls"
+                    target="_blank"
+                    ><img
+                      src="./images/constellation.JPG"
+                      alt="結束バンド-星座になれたら"
+                      class="img-fluid"
+                  /></a>
+                </div>
+              </div>
+            </div>
+            <div class="tab-pane fade" id="lovecirculation" role="tabpanel">
+              <div
+                class="row py-5 g-4 justify-content-center align-items-center"
+              >
+                <div
+                  class="col-lg-5 d-flex justify-content-center align-items-center"
+                >
+                  <div class="text-center text-lg-start">
+                    <h4 class="fw-bold">花澤香菜-恋愛サーキュレーション</h4>
+                    <p>
+                      這首歌的旋律和編曲我一直都蠻喜歡的<br />
+                      把他改成指彈分享給大家聽聽看
+                      <br />一起來彈彈看吧！
+                    </p>
+                  </div>
+                </div>
+                <div class="col-lg-7">
+                  <a
+                    href="https://www.youtube.com/watch?v=35eGXspwqSw"
+                    target="_blank"
+                    ><img
+                      src="./images/lovecirculation.JPG"
+                      alt="花澤香菜-恋愛サーキュレーション"
+                      class="img-fluid"
+                  /></a>
+                </div>
+              </div>
+            </div>
+            <div class="tab-pane fade" id="dinnersong" role="tabpanel">
+              <div
+                class="row py-5 g-4 justify-content-center align-items-center"
+              >
+                <div
+                  class="col-lg-5 d-flex justify-content-center align-items-center"
+                >
+                  <div class="text-center text-lg-start">
+                    <h4 class="fw-bold">tuki - 晚餐歌</h4>
+                    <p>
+                      去年造成話題<br />
+                      現在也只有16歲的tuki的曲目
+                      <br />期待它未來的發展
+                    </p>
+                  </div>
+                </div>
+                <div class="col-lg-7">
+                  <a
+                    href="https://www.youtube.com/watch?v=yIcazlrjavk"
+                    target="_blank"
+                    ><img
+                      src="./images/dinnersong.JPG"
+                      alt="tuki - 晚餐歌"
+                      class="img-fluid"
+                  /></a>
+                </div>
+              </div>
+            </div>
+            <div class="tab-pane fade" id="hananoto" role="tabpanel">
+              <div
+                class="row py-5 g-4 justify-content-center align-items-center"
+              >
+                <div
+                  class="col-lg-5 d-flex justify-content-center align-items-center"
+                >
+                  <div class="text-center text-lg-start">
+                    <h4 class="fw-bold">酸欠少女さユり-花の塔</h4>
+                    <p>
+                      走得很突然的さユり留下了許多好作品<br />
+                      其中我最喜歡的是這首歌曲<br />利用到了Lydian做調式借用出2級屬七
+                      <br />分享給各位聽聽看
+                    </p>
+                  </div>
+                </div>
+                <div class="col-lg-7">
+                  <a
+                    href="https://www.youtube.com/watch?v=GQRohjkwD_Y"
+                    target="_blank"
+                    ><img
+                      src="./images/hananoto.JPG"
+                      alt="酸欠少女さユり-花の塔"
+                      class="img-fluid"
+                  /></a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="tab-content" id="nav-tabContent-2">
+            <div class="tab-pane fade" id="majorskill" role="tabpanel">
+              <div
+                class="row py-5 g-4 justify-content-center align-items-center"
+              >
+                <div
+                  class="col-lg-5 d-flex justify-content-center align-items-center"
+                >
+                  <div class="text-center text-lg-start">
+                    <h4 class="fw-bold">大調音階快速記憶法</h4>
+                    <p>
+                      這次來跟大家分享一下我記音階的方式<br />
+                      很實用的小觀念 希望有幫助！
+                    </p>
+                  </div>
+                </div>
+                <div class="col-lg-7">
+                  <a
+                    href="https://www.youtube.com/watch?v=5zqS9DtumgE&t=4s"
+                    target="_blank"
+                    ><img
+                      src="./images/majorskill.JPG"
+                      alt="大調音階快速記憶法"
+                      class="img-fluid"
+                  /></a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!--footer-->
+    <footer class="bg-secondary p-3 text-center text-white">
+      <p class="mb-0">© Copyright - 吉米音享音樂工作室</p>
+    </footer>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://code.jquery.com/jquery-3.2.1.min.js"
+      integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
+      crossorigin="anonymous"
+    ></script>
+    <script src="./main.js"></script>
+  </body>
+</html>
