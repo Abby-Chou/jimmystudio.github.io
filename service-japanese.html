@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="zh-tw">
+<html lang="ja">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -8,7 +8,7 @@
       href="./images/favicon/icons8-guitar-16.png"
       type="image/x-icon"
     />
-    <title>吉米音享音樂工作室</title>
+    <title>ジミー音享ミュージックスタジオ</title>
 
     <link rel="stylesheet" href="./stylesheets/all.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
@@ -65,20 +65,24 @@
         /></a>
       </div>
     </aside>
+
     <!--導覽列-->
     <nav
       class="navbar navbar-expand-lg navbar-light bg-secondary py-2 fixed-top"
     >
       <div class="container">
-        <a class="navbar-brand fw-bold text-white fs-3" href="./index.html">
+        <a
+          class="navbar-brand fw-bold text-white fs-s-20"
+          href="./index-japanese.html"
+        >
           <img
             src="https://img.icons8.com/emoji/48/guitar-emoji.png"
             alt="guitar-emoji"
             class="img-fluid"
-            width="48"
-            height="48"
+            width="40"
+            height="40"
           />
-          <span>吉米音享音樂工作室</span>
+          <span>ジミー音享ミュージックスタジオ</span>
         </a>
         <button
           class="navbar-toggler"
@@ -88,50 +92,68 @@
           aria-controls="navbarSupportedContent"
           aria-expanded="false"
           aria-label="Toggle navigation"
+          id="navbar-button"
         >
           <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
-          <ul class="navbar-nav ms-auto mb-2 mb-lg-0 fs-5">
-            <li class="nav-item mx-3">
+          <ul class="navbar-nav ms-auto mb-2 mb-lg-0 fs-s-16">
+            <li class="nav-item me-2 d-flex align-items-center">
               <a
-                class="nav-link text-warning fw-bold"
+                class="nav-link text-warning fw-bold fs-5"
                 aria-current="page"
-                href="./index.html"
-                >首頁</a
+                href="./index-japanese.html"
+                >ホーム</a
               >
             </li>
-            <li class="nav-item mx-3 dropdown">
+            <li class="nav-item dropdown me-2 d-flex align-items-center">
+              <div>
+                <a
+                  class="nav-link dropdown-toggle link-light fs-5"
+                  href="#"
+                  id="dropdownMenuLink"
+                  data-bs-toggle="dropdown"
+                  aria-expanded="false"
+                  >プロフィール</a
+                >
+                <ul
+                  class="dropdown-menu dropdown-menu-dark"
+                  aria-labelledby="dropdownMenuLink"
+                  id="aboutmeItem"
+                >
+                  <li>
+                    <a class="dropdown-item" href="index-japanese.html#aboutme"
+                      >経験</a
+                    >
+                  </li>
+                  <li>
+                    <a class="dropdown-item" href="index-japanese.html#profolio"
+                      >作品</a
+                    >
+                  </li>
+                </ul>
+              </div>
+            </li>
+            <li class="nav-item me-2 d-flex align-items-center">
               <a
-                class="nav-link dropdown-toggle link-light"
+                class="nav-link link-light text-start text-lg-center fs-5"
                 href="#"
-                id="dropdownMenuLink"
-                data-bs-toggle="dropdown"
-                aria-expanded="false"
-                >關於我</a
+                >サービス<br />
+                紹介</a
               >
-              <ul
-                class="dropdown-menu dropdown-menu-dark"
-                aria-labelledby="dropdownMenuLink"
-                id="aboutmeItem"
+            </li>
+            <li class="nav-item me-2 d-flex align-items-center">
+              <a
+                class="nav-link link-light text-start text-lg-center fs-5"
+                href="./video-japanese.html"
+                >動画<br />ギャラリー</a
               >
-                <li>
-                  <a class="dropdown-item" href="index.html#aboutme">經歷</a>
-                </li>
-                <li>
-                  <a class="dropdown-item" href="index.html#profolio">作品</a>
-                </li>
-              </ul>
             </li>
-            <li class="nav-item mx-3">
-              <a class="nav-link link-light" href="#">服務介紹</a>
-            </li>
-            <li class="nav-item mx-3">
-              <a class="nav-link link-light" href="./video.html">影片分享</a>
-            </li>
-            <li class="nav-item mx-3">
-              <a class="btn btn-warning rounded-pill fs-5" href="./charge.html"
-                >收費標準</a
+            <li class="nav-item me-2 d-flex align-items-center">
+              <a
+                class="btn btn-warning rounded-pill fs-5"
+                href="./charge-japanese.html"
+                >料金案内</a
               >
             </li>
           </ul>
@@ -141,14 +163,14 @@
 
     <!--上方圖片-->
     <main
-      class="position-relative header vh-lg-100"
+      class="position-relative header"
       style="
         background-image: url(./images/service.header.jpg);
-        top: 74px;
-        margin-bottom: 70px;
+        top: 66px;
+        margin-bottom: 66px;
       "
     >
-      <section class="container p-4">
+      <section class="container p-4 p-lg-5">
         <div
           class="row row-cols-1 row-cols-md-2 text-white justify-content-center"
         >
@@ -156,43 +178,55 @@
             <div class="card bg-transparent text-white border-0">
               <div class="card-body">
                 <h3 class="card-title display-4 mb-3 text-center fw-bold">
-                  吉他/編曲教學
+                  ギター／編曲指導
                 </h3>
                 <div class="d-flex justify-content-center">
                   <ul class="card-text list-unstyled fs-5 lh-lg">
                     <li>
                       <i class="bi bi-check-lg text-warning"></i>
-                      建立良好彈奏、練習習慣
-                    </li>
-                    <li>
-                      <i class="bi bi-check-lg text-warning"></i> 學習試譜、記譜
+                      正しい演奏・練習習慣の確立
                     </li>
                     <li>
                       <i class="bi bi-check-lg text-warning"></i>
-                      認識調性、了解調性內級數的功能
+                      譜読み・譜面作成の習得
+                    </li>
+                    <li class="ps-4">
+                      <i
+                        class="bi bi-check-lg text-warning position-absolute start-25 ms-n4"
+                      ></i>
+                      調性の理解とダイアトニックコードの機能分析
+                    </li>
+                    <li class="ps-4">
+                      <i
+                        class="bi bi-check-lg text-warning position-absolute start-25 ms-n4"
+                      ></i>
+                      転調とモーダルインターチェンジ
                     </li>
                     <li>
-                      <i class="bi bi-check-lg text-warning"></i> 轉調及借用調式
-                    </li>
-                    <li>
-                      <i class="bi bi-check-lg text-warning"></i> 相對音感建立
-                    </li>
-                    <li>
-                      <i class="bi bi-check-lg text-warning"></i> 即興能力的培養
-                    </li>
-                    <li>
-                      <i class="bi bi-check-lg text-warning"></i>
-                      效果器音色辨識與調整
-                    </li>
-                    <li>
-                      <i class="bi bi-check-lg text-warning"></i> 曲式分析
-                    </li>
-                    <li>
-                      <i class="bi bi-check-lg text-warning"></i> 和聲搭配(創作)
+                      <i class="bi bi-check-lg text-warning"></i> 相対音感の養成
                     </li>
                     <li>
                       <i class="bi bi-check-lg text-warning"></i>
-                      電腦編曲、錄音、混音、詞曲創作
+                      即興演奏能力の向上
+                    </li>
+                    <li class="ps-4">
+                      <i
+                        class="bi bi-check-lg text-warning position-absolute start-25 ms-n4"
+                      ></i>
+                      エフェクターの音色識別と調整
+                    </li>
+                    <li>
+                      <i class="bi bi-check-lg text-warning"></i> 楽曲構成の分析
+                    </li>
+                    <li>
+                      <i class="bi bi-check-lg text-warning"></i>
+                      ハーモニーの活用（作曲）
+                    </li>
+                    <li class="ps-4">
+                      <i
+                        class="bi bi-check-lg text-warning position-absolute start-25 ms-n4"
+                      ></i>
+                      DAWを用いた編曲・録音・ミキシング・作詞作曲
                     </li>
                   </ul>
                 </div>
@@ -204,7 +238,7 @@
             <div class="card bg-transparent text-white border-0">
               <div class="card-body">
                 <h3 class="card-title display-4 mb-3 text-center fw-bold">
-                  案件承接
+                  案件受付
                 </h3>
                 <div
                   class="d-flex justify-content-lg-center ms-2 ms-sm-5 ms-md-4 ms-lg-0"
@@ -212,22 +246,25 @@
                   <ul class="card-text list-unstyled fs-5 lh-lg">
                     <li>
                       <i class="bi bi-check-lg text-warning"></i>
-                      詞曲創作
+                      作詞・作曲
                     </li>
                     <li><i class="bi bi-check-lg text-warning"></i> 編曲</li>
                     <li>
                       <i class="bi bi-check-lg text-warning"></i>
-                      混音
+                      ミキシング
                     </li>
                     <li>
-                      <i class="bi bi-check-lg text-warning"></i> KALA帶製作
+                      <i class="bi bi-check-lg text-warning"></i>
+                      カラオケ音源制作
                     </li>
                     <li>
-                      <i class="bi bi-check-lg text-warning"></i> 樂譜製作
+                      <i class="bi bi-check-lg text-warning"></i> 楽譜制作
                     </li>
-                    <li>
-                      <i class="bi bi-check-lg text-warning"></i> 電木吉他 錄製
-                      Dubbing
+                    <li class="ps-4">
+                      <i
+                        class="bi bi-check-lg text-warning position-absolute start-25 ms-n4"
+                      ></i>
+                      エレキ／アコースティックギター録音・<br />ダビング
                     </li>
                   </ul>
                 </div>
@@ -239,7 +276,7 @@
     </main>
     <!--footer-->
     <footer class="bg-secondary p-3 text-center text-white">
-      <p class="mb-0">© Copyright - 吉米音享音樂工作室</p>
+      <p class="mb-0">© Copyright - ジミー音享ミュージックスタジオ</p>
     </footer>
     <script
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js"
