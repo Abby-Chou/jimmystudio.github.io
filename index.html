@@ -482,5 +482,51 @@
       crossorigin="anonymous"
     ></script>
     <script src="./main.js"></script>
+    <script>
+      (function () {
+        // 如果已經在英文頁，就不再判斷，避免重複跳轉
+        if (window.location.pathname === "/index-english.html") return;
+
+        fetch("https://ipapi.co/json/")
+          .then((res) => {
+            if (!res.ok) throw new Error("IP API 回應錯誤");
+            return res.json();
+          })
+          .then((data) => {
+            const europeanCountries = [
+              "FR",
+              "DE",
+              "ES",
+              "IT",
+              "NL",
+              "BE",
+              "CH",
+              "SE",
+              "NO",
+              "DK",
+              "FI",
+              "AT",
+              "PL",
+              "PT",
+              "GR",
+              "IE",
+              "GB",
+            ];
+            const usCountries = ["US", "CA"];
+
+            // 如果偵測到歐美地區 → 直接跳轉英文頁
+            if (
+              europeanCountries.includes(data.country) ||
+              usCountries.includes(data.country)
+            ) {
+              window.location.replace("/index-english.html");
+            }
+          })
+          .catch((err) => {
+            console.warn("IP 偵測失敗:", err);
+            // 偵測失敗 → 停留首頁，不強制跳轉，避免無限循環
+          });
+      })();
+    </script>
   </body>
 </html>
